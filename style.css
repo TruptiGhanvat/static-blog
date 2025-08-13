@@ -13,7 +13,8 @@ body {
 }
 
 header {
-  background: #35424a;
+  /* Linear gradient: dark blue to light blue */
+  background: linear-gradient(to right, #95a5af, #87CEFA); /* #87CEFA = light blue */
   color: #fff;
   padding: 20px 0;
 }
@@ -65,7 +66,7 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 20px;
-  background: #35424a;
+ background: linear-gradient(to right, #95a5af, #87CEFA);
   color: #fff;
   margin-top: 20px;
 }
